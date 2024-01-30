@@ -20,7 +20,7 @@ This Repository provides functionality for processing Certificate Profiles and E
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/your-repo.git
+    git clone https://github.com/FHatCSW/ejbca_docparser.git
     cd ejbca_docparser
     ```
 

@@ -81,5 +81,5 @@ class CertificateProfileGenerator:
             json.dump(self.template_data, output_file, indent=2)
 
 if __name__ == "__main__":
-    result_json_generator = CertificateProfileGenerator('../template/certprofile_template.json', 'certprofile_parsed.json')
+    result_json_generator = CertificateProfileGenerator('template/certprofile_template.json', 'certprofile_parsed.json')
     result_json_generator.save_updated_template('updated_certprofile_template.json')
