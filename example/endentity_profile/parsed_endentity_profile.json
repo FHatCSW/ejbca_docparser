@@ -1,0 +1,572 @@
+{
+  "90": {
+    "pretty_name": "Minimum password strength (bits)",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "`2`"
+      }
+    ]
+  },
+  "1000093": {
+    "pretty_name": "Maximum number of failed login attempts",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "`True`"
+      },
+      {
+        "parsed_value": "Default: `-1`"
+      },
+      {
+        "parsed_value": "Modifiable: `True`"
+      }
+    ]
+  },
+  "1000002": {
+    "pretty_name": "Batch generation (clear text pwd storage)",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "`True`"
+      },
+      {
+        "parsed_value": "Default: `true`"
+      },
+      {
+        "parsed_value": "Required: `True`"
+      }
+    ]
+  },
+  "1000026": {
+    "pretty_name": "End Entity E-mail",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "`True`"
+      },
+      {
+        "parsed_value": "Value: `test@test.de`"
+      },
+      {
+        "parsed_value": "Required: `True`"
+      },
+      {
+        "parsed_value": "Modifiable: `False`"
+      }
+    ]
+  },
+  "110": {
+    "pretty_name": "Profile description",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "`description`"
+      }
+    ]
+  },
+  "1000005": {
+    "pretty_name": "CN, Common name",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Available: `True`"
+      },
+      {
+        "parsed_value": "Value: `CN, Common name`"
+      },
+      {
+        "parsed_value": "Required: `True`"
+      },
+      {
+        "parsed_value": "Modifiable: `True`"
+      }
+    ]
+  },
+  "1000006": {
+    "pretty_name": "serialNumber, Serial number (in DN)",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Available: `True`"
+      },
+      {
+        "parsed_value": "Value: `serialNumber, Serial number (in DN)`"
+      },
+      {
+        "parsed_value": "Required: `False`"
+      },
+      {
+        "parsed_value": "Modifiable: `True`"
+      }
+    ]
+  },
+  "1000007": {
+    "pretty_name": "givenName, Given name (first name)",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Available: `True`"
+      },
+      {
+        "parsed_value": "Value: `givenName, Given name (first name)`"
+      },
+      {
+        "parsed_value": "Required: `False`"
+      },
+      {
+        "parsed_value": "Modifiable: `True`"
+      }
+    ]
+  },
+  "1000008": {
+    "pretty_name": "initials, First name abbreviation",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Available: `True`"
+      },
+      {
+        "parsed_value": "Value: `initials, First name abbreviation`"
+      },
+      {
+        "parsed_value": "Required: `False`"
+      },
+      {
+        "parsed_value": "Modifiable: `True`"
+      }
+    ]
+  },
+  "1000009": {
+    "pretty_name": "surname, Surname (last name)",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Available: `True`"
+      },
+      {
+        "parsed_value": "Value: `surname, Surname (last name)`"
+      },
+      {
+        "parsed_value": "Required: `False`"
+      },
+      {
+        "parsed_value": "Modifiable: `True`"
+      }
+    ]
+  },
+  "1000010": {
+    "pretty_name": "title, Title",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Available: `True`"
+      },
+      {
+        "parsed_value": "Value: `title, Title`"
+      },
+      {
+        "parsed_value": "Required: `False`"
+      },
+      {
+        "parsed_value": "Modifiable: `True`"
+      }
+    ]
+  },
+  "1000011": {
+    "pretty_name": "OU, Organizational Unit",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Available: `True`"
+      },
+      {
+        "parsed_value": "Value: `OU, Organizational Unit`"
+      },
+      {
+        "parsed_value": "Required: `False`"
+      },
+      {
+        "parsed_value": "Modifiable: `True`"
+      }
+    ]
+  },
+  "1000012": {
+    "pretty_name": "O, Organization",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Available: `True`"
+      },
+      {
+        "parsed_value": "Value: `O, Organization`"
+      },
+      {
+        "parsed_value": "Required: `False`"
+      },
+      {
+        "parsed_value": "Modifiable: `True`"
+      }
+    ]
+  },
+  "1000013": {
+    "pretty_name": "L, Locality",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Available: `True`"
+      },
+      {
+        "parsed_value": "Value: `L, Locality`"
+      },
+      {
+        "parsed_value": "Required: `False`"
+      },
+      {
+        "parsed_value": "Modifiable: `True`"
+      }
+    ]
+  },
+  "1000014": {
+    "pretty_name": "ST, State or Province",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Available: `True`"
+      },
+      {
+        "parsed_value": "Value: `ST, State or Province`"
+      },
+      {
+        "parsed_value": "Required: `False`"
+      },
+      {
+        "parsed_value": "Modifiable: `True`"
+      }
+    ]
+  },
+  "1000015": {
+    "pretty_name": "DC, Domain Component",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Available: `True`"
+      },
+      {
+        "parsed_value": "Value: `DC, Domain Component`"
+      },
+      {
+        "parsed_value": "Required: `False`"
+      },
+      {
+        "parsed_value": "Modifiable: `True`"
+      }
+    ]
+  },
+  "1000016": {
+    "pretty_name": "C, Country (ISO 3166)",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Available: `True`"
+      },
+      {
+        "parsed_value": "Value: `C, Country (ISO 3166)`"
+      },
+      {
+        "parsed_value": "Required: `False`"
+      },
+      {
+        "parsed_value": "Modifiable: `True`"
+      }
+    ]
+  },
+  "1000017": {
+    "pretty_name": "RFC 822 Name (e-mail address)",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Available: `False`"
+      }
+    ]
+  },
+  "1000018": {
+    "pretty_name": "DNS Name",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Available: `True`"
+      },
+      {
+        "parsed_value": "Value: `DNS Name`"
+      },
+      {
+        "parsed_value": "Required: `False`"
+      },
+      {
+        "parsed_value": "Modifiable: `True`"
+      }
+    ]
+  },
+  "1000019": {
+    "pretty_name": "IP Address",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Available: `True`"
+      },
+      {
+        "parsed_value": "Value: `IP Address`"
+      },
+      {
+        "parsed_value": "Required: `False`"
+      },
+      {
+        "parsed_value": "Modifiable: `True`"
+      }
+    ]
+  },
+  "1000021": {
+    "pretty_name": "Uniform Resource Identifier (URI)",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Available: `True`"
+      },
+      {
+        "parsed_value": "Value: `Uniform Resource Identifier (URI)`"
+      },
+      {
+        "parsed_value": "Required: `False`"
+      },
+      {
+        "parsed_value": "Modifiable: `True`"
+      }
+    ]
+  },
+  "1000023": {
+    "pretty_name": "Directory Name (Distinguished Name)",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Available: `True`"
+      },
+      {
+        "parsed_value": "Value: `Directory Name (Distinguished Name)`"
+      },
+      {
+        "parsed_value": "Required: `False`"
+      },
+      {
+        "parsed_value": "Modifiable: `True`"
+      }
+    ]
+  },
+  "1000025": {
+    "pretty_name": "Registered Identifier (OID)",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Available: `True`"
+      },
+      {
+        "parsed_value": "Value: `Registered Identifier (OID)`"
+      },
+      {
+        "parsed_value": "Required: `False`"
+      },
+      {
+        "parsed_value": "Modifiable: `True`"
+      }
+    ]
+  },
+  "1000039": {
+    "pretty_name": "unstructuredAddress, IP address",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Available: `True`"
+      },
+      {
+        "parsed_value": "Value: `unstructuredAddress, IP address`"
+      },
+      {
+        "parsed_value": "Required: `False`"
+      },
+      {
+        "parsed_value": "Modifiable: `True`"
+      }
+    ]
+  },
+  "1000047": {
+    "pretty_name": "dnQualifier, DN Qualifier",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Available: `True`"
+      },
+      {
+        "parsed_value": "Value: `dnQualifier, DN Qualifier`"
+      },
+      {
+        "parsed_value": "Required: `False`"
+      },
+      {
+        "parsed_value": "Modifiable: `True`"
+      }
+    ]
+  },
+  "1000048": {
+    "pretty_name": "businessCategory, Organization type",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Available: `True`"
+      },
+      {
+        "parsed_value": "Value: `businessCategory, Organization type`"
+      },
+      {
+        "parsed_value": "Required: `False`"
+      },
+      {
+        "parsed_value": "Modifiable: `True`"
+      }
+    ]
+  },
+  "1000049": {
+    "pretty_name": "postalCode",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Available: `True`"
+      },
+      {
+        "parsed_value": "Value: `postalCode`"
+      },
+      {
+        "parsed_value": "Required: `False`"
+      },
+      {
+        "parsed_value": "Modifiable: `True`"
+      }
+    ]
+  },
+  "1000050": {
+    "pretty_name": "postalAddress",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Available: `True`"
+      },
+      {
+        "parsed_value": "Value: `postalAddress`"
+      },
+      {
+        "parsed_value": "Required: `False`"
+      },
+      {
+        "parsed_value": "Modifiable: `True`"
+      }
+    ]
+  },
+  "1000051": {
+    "pretty_name": "telephoneNumber",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Available: `True`"
+      },
+      {
+        "parsed_value": "Value: `telephoneNumber`"
+      },
+      {
+        "parsed_value": "Required: `False`"
+      },
+      {
+        "parsed_value": "Modifiable: `True`"
+      }
+    ]
+  },
+  "1000053": {
+    "pretty_name": "pseudonym",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Available: `True`"
+      },
+      {
+        "parsed_value": "Value: `pseudonym`"
+      },
+      {
+        "parsed_value": "Required: `False`"
+      },
+      {
+        "parsed_value": "Modifiable: `True`"
+      }
+    ]
+  },
+  "1000054": {
+    "pretty_name": "streetAddress",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Available: `True`"
+      },
+      {
+        "parsed_value": "Value: `streetAddress`"
+      },
+      {
+        "parsed_value": "Required: `False`"
+      },
+      {
+        "parsed_value": "Modifiable: `True`"
+      }
+    ]
+  },
+  "1000055": {
+    "pretty_name": "name",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Available: `True`"
+      },
+      {
+        "parsed_value": "Value: `name`"
+      },
+      {
+        "parsed_value": "Required: `False`"
+      },
+      {
+        "parsed_value": "Modifiable: `True`"
+      }
+    ]
+  },
+  "1000060": {
+    "pretty_name": "description, Description",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Available: `True`"
+      },
+      {
+        "parsed_value": "Value: `description, Description`"
+      },
+      {
+        "parsed_value": "Required: `False`"
+      },
+      {
+        "parsed_value": "Modifiable: `True`"
+      }
+    ]
+  },
+  "0": {
+    "pretty_name": "Username",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Auto-generated: `True`"
+      }
+    ]
+  }
+}

@@ -1,0 +1,264 @@
+{
+  "type": {
+    "pretty_name": "Type",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "`['End Entity']`"
+      }
+    ]
+  },
+  "availablekeyalgorithms": {
+    "pretty_name": "Available Key Algorithms",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "`DSA, ECDSA, RSA, Ed25519, Ed448`"
+      }
+    ]
+  },
+  "availableeccurves": {
+    "pretty_name": "Available ECDSA curves",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "`ANY_EC_CURVE`"
+      }
+    ]
+  },
+  "availablebitlengths": {
+    "pretty_name": "Available Bit Lengths",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "`0, 110, 112, 113, 126, 128, 131, 160, 161, 162, 163, 167, 173, 179, 189, 190, 191, 192, 193, 224, 225, 232, 233, 236, 237, 238, 239, 256, 257, 281, 282, 289, 307, 320, 353, 367, 384, 407, 409, 418, 431, 512, 521, 570, 1024, 1536, 2048, 3072, 4096, 6144, 8192`"
+      }
+    ]
+  },
+  "signaturealgorithm": {
+    "pretty_name": "Signature Algorithm",
+    "print": true,
+    "args": []
+  },
+  "encodedvalidity": {
+    "pretty_name": "Validity or end date of the certificate",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "`2y`"
+      }
+    ]
+  },
+  "usecertificatevalidityoffset": {
+    "pretty_name": "Validity Offset",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Use: `False`"
+      }
+    ]
+  },
+  "useexpirationrestrictionforweekdays": {
+    "pretty_name": "Expiration Restrictions",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Use: `False`"
+      }
+    ]
+  },
+  "description": {
+    "pretty_name": "Description",
+    "print": true,
+    "args": []
+  },
+  "allowvalidityoverride": {
+    "pretty_name": "Allow Validity Override",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Allow: `False`"
+      }
+    ]
+  },
+  "allowextensionoverride": {
+    "pretty_name": "Allow Extension Override",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Allow: `False`"
+      }
+    ]
+  },
+  "allowdnoverride": {
+    "pretty_name": "Allow certificate serial number override",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Allow: `False`"
+      }
+    ]
+  },
+  "allowdnoverridebyeei": {
+    "pretty_name": "Allow Subject DN Override by End Entity Information",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Allow: `False`"
+      }
+    ]
+  },
+  "allowbackdatedrevokation": {
+    "pretty_name": "Allow Backdated Revocation",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Allow: `False`"
+      }
+    ]
+  },
+  "usecertificatestorage": {
+    "pretty_name": "Use Certificate Storage",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Use: `True`"
+      }
+    ]
+  },
+  "storecertificatedata": {
+    "pretty_name": "Store Certificate Data",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Use: `True`"
+      }
+    ]
+  },
+  "usebasicconstrants": {
+    "pretty_name": "Basic Constraints",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Use: `True`"
+      }
+    ]
+  },
+  "useauthoritykeyidentifier": {
+    "pretty_name": "Authority Key ID",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Use: `True`"
+      }
+    ]
+  },
+  "usesubjectkeyidentifier": {
+    "pretty_name": "Subject Key ID",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Use: `True`"
+      }
+    ]
+  },
+  "usekeyusage": {
+    "pretty_name": "Subject Key ID",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Use: `True`"
+      }
+    ]
+  },
+  "useextendedkeyusage": {
+    "pretty_name": "Extended Key Usage",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Use: `True`"
+      }
+    ]
+  },
+  "usecertificatepolicies": {
+    "pretty_name": "Certificate Policies",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Use: `False`"
+      }
+    ]
+  },
+  "usesubjectalternativename": {
+    "pretty_name": "Subject Alternative Name",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Use: `True`"
+      }
+    ]
+  },
+  "useissueralternativename": {
+    "pretty_name": "Subject Alternative Name",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Use: `True`"
+      }
+    ]
+  },
+  "usesubjectdirattributes": {
+    "pretty_name": "Subject Directory Attributes",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Use: `False`"
+      }
+    ]
+  },
+  "usenameconstraints": {
+    "pretty_name": "Name Constraints",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Use: `False`"
+      }
+    ]
+  },
+  "usecrldistributionpoint": {
+    "pretty_name": "CRL Distribution Points",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Use: `False`"
+      }
+    ]
+  },
+  "usefreshestcrl": {
+    "pretty_name": "Freshest CRL (a.k.a. Delta CRL DP)",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Use: `False`"
+      }
+    ]
+  },
+  "useauthorityinformationaccess": {
+    "pretty_name": "Authority Information Access",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Use: `False`"
+      }
+    ]
+  },
+  "useprivkeyusageperiod": {
+    "pretty_name": "Private Key Usage Period",
+    "print": true,
+    "args": [
+      {
+        "parsed_value": "Use: `False`"
+      }
+    ]
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "type": {
+    "pretty_name": "Type",
+    "print": true,
+    "args": [
+      {"xml_name": "type", "encode_value": [{"value": 1, "print_value":  "End Entity"}, {"value": 2, "print_value":  "Sub CA"}, {"value": 3, "print_value":  "Root CA"}, {"value": 4, "print_value":  "ITS"}]}
+    ]
+  },
+  "availablekeyalgorithms": {
+    "pretty_name": "Available Key Algorithms",
+    "print": true,
+    "args": [
+      {"xml_name": "availablekeyalgorithms", "position": 999}
+    ]
+  },
+  "availableeccurves": {
+    "pretty_name": "Available ECDSA curves",
+    "print": true,
+    "args": [
+      {"xml_name": "availableeccurves", "position": 999}
+    ]
+  },
+  "availablebitlengths": {
+    "pretty_name": "Available Bit Lengths",
+    "print": true,
+    "args": [
+      {"xml_name": "availablebitlengths", "position": 999}
+    ]
+  },
+  "signaturealgorithm": {
+    "pretty_name": "Signature Algorithm",
+    "print": true,
+    "args": [
+      {"xml_name": "signaturealgorithm", "encode_value": [{"value": null, "print_value":  "Inherit from issueing CA"}, {"value": null, "print_value":  null}]}
+    ]
+  },
+  "encodedvalidity": {
+    "pretty_name": "Validity or end date of the certificate",
+    "print": true,
+    "args": [
+      {"xml_name": "encodedvalidity"}
+    ]
+  },
+  "usecertificatevalidityoffset": {
+    "pretty_name": "Validity Offset",
+    "print": true,
+    "args": [
+      {"xml_name": "usecertificatevalidityoffset", "prefix": "Use"},
+      {"xml_name": "certificatevalidityoffset"}
+    ]
+  },
+  "useexpirationrestrictionforweekdays": {
+    "pretty_name": "Expiration Restrictions",
+    "print": true,
+    "args": [
+      {"xml_name": "useexpirationrestrictionforweekdays", "prefix": "Use"},
+      {"xml_name": "expirationrestrictionweekdays", "position": 0, "prefix": "Monday"},
+      {"xml_name": "expirationrestrictionweekdays", "position": 1, "prefix": "Tuesday"},
+      {"xml_name": "expirationrestrictionweekdays", "position": 2, "prefix": "Wednesday"},
+      {"xml_name": "expirationrestrictionweekdays", "position": 3, "prefix": "Thursday"},
+      {"xml_name": "expirationrestrictionweekdays", "position": 4, "prefix": "Friday"},
+      {"xml_name": "expirationrestrictionweekdays", "position": 5, "prefix": "Saturday"},
+      {"xml_name": "expirationrestrictionweekdays", "position": 6, "prefix": "Tuesday"},
+      {"xml_name": "expirationrestrictionforweekdaysbefore", "prefix": "but expire", "encode_value": [{"value": true, "print_value":  "before"}, {"value": false, "print_value":  "after"}]}
+    ]
+  },
+  "description": {
+    "pretty_name": "Description",
+    "print": true,
+    "args": [
+      {"xml_name": "description"}
+    ]
+  },
+  "allowvalidityoverride": {
+    "pretty_name": "Allow Validity Override",
+    "print": true,
+    "args": [
+      {"xml_name": "allowvalidityoverride", "prefix":  "Allow"}
+    ]
+  },
+  "allowextensionoverride": {
+    "pretty_name": "Allow Extension Override",
+    "print": true,
+    "args": [
+      {"xml_name": "allowextensionoverride", "prefix":  "Allow"}
+    ]
+  },
+  "allowdnoverride": {
+    "pretty_name": "Allow certificate serial number override",
+    "print": true,
+    "args": [
+      {"xml_name": "allowdnoverride", "prefix":  "Allow"}
+    ]
+  },
+  "allowdnoverridebyeei": {
+    "pretty_name": "Allow Subject DN Override by End Entity Information",
+    "print": true,
+    "args": [
+      {"xml_name": "allowdnoverridebyeei", "prefix":  "Allow"}
+    ]
+  },
+  "allowbackdatedrevokation": {
+    "pretty_name": "Allow Backdated Revocation",
+    "print": true,
+    "args": [
+      {"xml_name": "allowbackdatedrevokation", "prefix":  "Allow"}
+    ]
+  },
+  "usecertificatestorage": {
+    "pretty_name": "Use Certificate Storage",
+    "print": true,
+    "args": [
+      {"xml_name": "usecertificatestorage", "prefix":  "Use"}
+    ]
+  },
+  "storecertificatedata": {
+    "pretty_name": "Store Certificate Data",
+    "print": true,
+    "args": [
+      {"xml_name": "storecertificatedata", "prefix":  "Use"}
+    ]
+  },
+  "usebasicconstrants": {
+    "pretty_name": "Basic Constraints",
+    "print": true,
+    "args": [
+      {"xml_name": "usebasicconstrants", "prefix":  "Use"},
+      {"xml_name": "basicconstraintscritical", "prefix":  "Critical"}
+
+    ]
+  },
+  "useauthoritykeyidentifier": {
+    "pretty_name": "Authority Key ID",
+    "print": true,
+    "args": [
+      {"xml_name": "useauthoritykeyidentifier", "prefix":  "Use"}
+    ]
+  },
+  "usesubjectkeyidentifier": {
+    "pretty_name": "Subject Key ID",
+    "print": true,
+    "args": [
+      {"xml_name": "usesubjectkeyidentifier", "prefix":  "Use"}
+    ]
+  },
+  "usekeyusage": {
+    "pretty_name": "Subject Key ID",
+    "print": true,
+    "args": [
+      {"xml_name": "usekeyusage", "prefix":  "Use"},
+      {"xml_name": "keyusagecritical", "prefix":  "Critical"},
+      {"xml_name": "keyusage", "position": 0, "prefix": "Digital Signature"},
+      {"xml_name": "keyusage", "position": 1, "prefix": "Non repudiation"},
+      {"xml_name": "keyusage", "position": 2, "prefix": "Key encipherment"},
+      {"xml_name": "keyusage", "position": 3, "prefix": "Data encipherment"},
+      {"xml_name": "keyusage", "position": 4, "prefix": "Key agreement"},
+      {"xml_name": "keyusage", "position": 5, "prefix": "Key certificate sign"},
+      {"xml_name": "keyusage", "position": 6, "prefix": "CRL sign"},
+      {"xml_name": "keyusage", "position": 7, "prefix": "Encipher only"},
+      {"xml_name": "keyusage", "position": 8, "prefix": "Decipher only"}
+    ]
+  },
+  "useextendedkeyusage": {
+    "pretty_name": "Extended Key Usage",
+    "print": true,
+    "args": [
+      {"xml_name": "useextendedkeyusage", "prefix":  "Use"},
+      {"xml_name": "extendedkeyusagecritical", "prefix":  "Critical"},
+      {"xml_name": "extendedkeyusage", "position": 999}
+    ]
+  },
+  "usecertificatepolicies": {
+    "pretty_name": "Certificate Policies",
+    "print": true,
+    "args": [
+      {"xml_name": "usecertificatepolicies", "prefix":  "Use"},
+      {"xml_name": "certificatepoliciescritical", "prefix":  "Critical"},
+      {"xml_name": "certificatepolicies", "position": 999}
+    ]
+  },
+  "usesubjectalternativename": {
+    "pretty_name": "Subject Alternative Name",
+    "print": true,
+    "args": [
+      {"xml_name": "usesubjectalternativename", "prefix":  "Use"},
+      {"xml_name": "subjectalternativenamecritical", "prefix":  "Critical"}
+    ]
+  },
+  "useissueralternativename": {
+    "pretty_name": "Subject Alternative Name",
+    "print": true,
+    "args": [
+      {"xml_name": "useissueralternativename", "prefix":  "Use"},
+      {"xml_name": "issueralternativenamecritical", "prefix":  "Critical"}
+    ]
+  },
+  "usesubjectdirattributes": {
+    "pretty_name": "Subject Directory Attributes",
+    "print": true,
+    "args": [
+      {"xml_name": "usesubjectdirattributes", "prefix":  "Use"}
+    ]
+  },
+  "usenameconstraints": {
+    "pretty_name": "Name Constraints",
+    "print": true,
+    "args": [
+      {"xml_name": "usenameconstraints", "prefix":  "Use"}
+    ]
+  },
+  "usecrldistributionpoint": {
+    "pretty_name": "CRL Distribution Points",
+    "print": true,
+    "args": [
+      {"xml_name": "usecrldistributionpoint", "prefix":  "Use"},
+      {"xml_name": "crldistributionpointcritical", "prefix":  "Critical"},
+      {"xml_name": "usedefaultcrldistributionpoint", "prefix":  "Use CA defined CRL Distribution Point"},
+      {"xml_name": "crldistributionpointcritical", "prefix":  "CRL Distribution Point URI"},
+      {"xml_name": "crlissuer", "prefix":  "CRL Issuer"}
+    ]
+  },
+  "usefreshestcrl": {
+    "pretty_name": "Freshest CRL (a.k.a. Delta CRL DP)",
+    "print": true,
+    "args": [
+      {"xml_name": "usefreshestcrl", "prefix":  "Use"},
+      {"xml_name": "usecadefinedfreshestcrl", "prefix":  "Use CA Defined Freshest CRL"},
+      {"xml_name": "freshestcrluri", "prefix":  "Freshest CRL URI"}
+    ]
+  },
+  "useauthorityinformationaccess": {
+    "pretty_name": "Authority Information Access",
+    "print": true,
+    "args": [
+      {"xml_name": "useauthorityinformationaccess", "prefix":  "Use"},
+      {"xml_name": "usedefaultocspservicelocator", "prefix":  "Use CA defined OCSP locator"},
+      {"xml_name": "ocspservicelocatoruri", "prefix":  "OCSP Service Locator URI"},
+      {"xml_name": "usedefaultcaissuer", "prefix":  "Use CA defined CA issuer"},
+      {"xml_name": "caissuers", "prefix":  "CA issuer URI", "postition":  null}
+    ]
+  },
+  "useprivkeyusageperiod": {
+    "pretty_name": "Private Key Usage Period",
+    "print": true,
+    "args": [
+      {"xml_name": "useauthorityinformationaccess", "prefix":  "Use"},
+      {"xml_name": "useprivkeyusageperiodnotbefore", "prefix":  "Start offset"},
+      {"xml_name": "privkeyusageperiodstartoffset"},
+      {"xml_name": "useprivkeyusageperiodnotafter", "prefix":  "Period length"},
+      {"xml_name": "privkeyusageperiodlength"}
+    ]
+  }
+}
